@@ -143,6 +143,43 @@
       "srcDir": "",
       "backend": "c",
       "ref": "refs/tags/v0.1.5"
+    },
+    {
+      "name": "resultsutils",
+      "version": "0.1.6",
+      "author": "Luca (@nonnil)",
+      "desc": "Utility macros for easier handling of Result",
+      "license": "MIT",
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "result",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.1.6"
     }
   ],
   "description": "Utility macros for easier handling of Result",
@@ -155,6 +192,7 @@
     "refs/tags/v0.1.3",
     "refs/tags/v0.1.4",
     "refs/tags/v0.1.5",
+    "refs/tags/v0.1.6",
     ""
   ],
   "heads": [
