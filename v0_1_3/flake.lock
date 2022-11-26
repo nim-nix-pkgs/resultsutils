@@ -232,7 +232,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs_2",
         "result": "result",
-        "src-resultsutils-main": "src-resultsutils-main"
+        "src-resultsutils-v0_1_3": "src-resultsutils-v0_1_3"
       }
     },
     "src-result-master": {
@@ -252,19 +252,19 @@
         "type": "github"
       }
     },
-    "src-resultsutils-main": {
+    "src-resultsutils-v0_1_3": {
       "flake": false,
       "locked": {
-        "lastModified": 1652456097,
-        "narHash": "sha256-2XHiyNtts1yihrKc7fIcEzHQWSyQOjShnTaGoZjIfSE=",
+        "lastModified": 1650723850,
+        "narHash": "sha256-KHMa9qgWCoLJJPPZTogPejUMWNwn6REfJ+mmq2wxoC8=",
         "owner": "nonnil",
         "repo": "resultsutils",
-        "rev": "35822a2355a6c9821050ade0517312a6f3356fa1",
+        "rev": "cd56dbf08af6539e0b1e3445c05cf4a75c678638",
         "type": "github"
       },
       "original": {
         "owner": "nonnil",
-        "ref": "refs/heads/main",
+        "ref": "refs/tags/v0.1.3",
         "repo": "resultsutils",
         "type": "github"
       }
